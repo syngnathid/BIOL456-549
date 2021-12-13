@@ -1,10 +1,9 @@
 ---
 title: Week 1 Announcement
 week: 1
-date: 2019-04-08
+date: 2021-12-13
 ---
 
-1. Create a [new repository based on Just the Class](https://github.com/kevinlin1/just-the-class/generate).
-1. Configure a [publishing source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages). Your course website is now live!
-1. Update `_config.yml` with your course information.
-1. Edit and create `.md` [Markdown files](https://guides.github.com/features/mastering-markdown/) to add your content.
+1. Create a [research computing account with RCDS](https://www.hpc.uidaho.edu/accountrequest.html).  
+1. Use your UI Login and password to login to standalone server such as [Crick R server](https://crick.ibest.uidaho.edu/auth-sign-in).  
+1. If you dont have access to the (Crick) R server, please email [Dr. Jones](mailto:adamjones@uidaho.edu)

@@ -1,5 +1,5 @@
 ---
-title: Introduction to Java
+title: Introduction to Bash
 ---
 
 Sep 28

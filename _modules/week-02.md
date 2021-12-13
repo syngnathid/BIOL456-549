@@ -1,5 +1,5 @@
 ---
-title: Basic Data Structures
+title: Intermediate Bash Commands
 ---
 
 Oct 5
