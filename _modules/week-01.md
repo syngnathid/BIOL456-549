@@ -2,22 +2,22 @@
 title: Introduction to Bash
 ---
 
-Sep 28
-: [Java & Git](#)
+Jan 13
+: [Intro to Bash](#)
   : [1.1](#)
 
-Sep 29
-: **Section**{: .label .label-purple }[Intro to Java](#)
+Jan 18
+: **Section**{: .label .label-purple }[Basic Commands](#)
   : [Solution](#)
 
-Sep 30
-: [Variables & Objects](#)
+Jan 20
+: [Navigation and Paths](#)
   : [1.2](#), [2.1](#)
 
-Oct 1
-: **Lab**{: .label .label-purple } [Intro to Java](#)
+Jan 25
+: **Lab**{: .label .label-purple } [Loops and Recursion](#)
 
-Oct 2
-: [Tracing, IntLists, & Recursion](#)
+Jan 27
+: [Search Commands](#)
   : [2.1](#)
 : **HW 1 due**{: .label .label-red }
