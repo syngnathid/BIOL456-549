@@ -1,10 +1,10 @@
 ---
 layout: home
-title: Just the Class
+title: BIOL456-549
 nav_exclude: true
 seo:
   type: Course
-  name: Just the Class
+  name: BIOL456-549
 ---
 
 # {{ site.tagline }}
