@@ -4,7 +4,7 @@ title: Schedule
 description: Course Schedule.
 ---
 
-# Weekly Schedule
+# Course Schedule
 
 <!-- {% for schedule in site.schedules %}
 {{ schedule }}
