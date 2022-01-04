@@ -6,4 +6,4 @@ website: https://pipefishguysite.wordpress.com/
 photo: adam_jones.jpeg
 ---
 
-[Schedule an appointment](#){: .btn .btn-outline }
+<!-- [Schedule an appointment](#){: .btn .btn-outline } -->

@@ -6,4 +6,4 @@ website: https://bernadettebiology.weebly.com/
 photo: bernadette.jpeg
 ---
 
-I like teaching Computer Skills for Biologists!
+<!-- I like teaching Computer Skills for Biologists! -->

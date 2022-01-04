@@ -25,13 +25,13 @@ schedule:
       - name: Lecture
         start: 2:00 PM
         end: 3:20 PM
-        location: GIBB XYZ
+        location: TLC 123
   - name: Wednesday
   - name: Thursday
     events:
       - name: Lecture
         start: 2:00 PM
         end: 3:20 PM
-        location: GIBB XYZ
+        location: TLC 123
   - name: Friday
 ---
