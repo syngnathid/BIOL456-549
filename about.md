@@ -41,6 +41,6 @@ The University of Idaho is still operating under Covid-19 precautions. In class,
  
 ## Center for disability access and resources reasonable accommodations statement
 - Reasonable accommodations are available for students who have documented temporary or permanent disabilities. All accommodations must be approved through the Center for Disability Access and Resources located in the Bruce M. Pitman Center, Suite 127 in order to notify your instructor(s) as soon as possible regarding accommodation(s) needed for the course.
-- Phone: <a href="tel:208-885‐6307">208-885‐6307</a>208-885‐6307
+- Phone: <a href="tel:208-885‐6307">208-885‐6307</a>
 - Email: <a href = "mailto: cdar@uidaho.edu">cdar@uidaho.edu</a>
 - Website: [www.uidaho.edu/current-students/cdar](www.uidaho.edu/current-students/cdar)
