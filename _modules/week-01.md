@@ -1,5 +1,5 @@
 ---
-title: 
+title: Week of
 ---
 
 Jan 13
