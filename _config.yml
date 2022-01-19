@@ -51,6 +51,7 @@ defaults:
       type: modules
     values:
       layout: module
+      subpath: '/assests/content/'
   - scope:
       path: ''
       type: schedules

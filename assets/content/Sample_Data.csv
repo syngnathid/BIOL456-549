@@ -1,0 +1,109 @@
+catalognumber,imageID,dsize,lndsize,ecoregion,population,pairs,type,agescore,sex,stateprovince,county,year,PCNM1,lat,lon,scientificname,seas,temp
+MSB_144084,MSB_144084_dor,3.330449777,1.203107363,Pacific,MainlandP,MainlandP,Mainland,10,female,Yukon Territory,,2005,0.016290935,62.3985,-136.5553,Microtus pennsylvanicus,142.46,-32.1
+MSB_144179,MSB_144179_dor,3.509704082,1.255531727,Pacific,MainlandP,MainlandP,Mainland,12,male,Yukon Territory,,2005,-0.051118719,64.0842,-139.4417,Microtus pennsylvanicus,157.73,-33.9
+MSB_144426,MSB_144426_dor,3.403664953,1.224852778,Pacific,MainlandP,MainlandP,Mainland,10,female,Yukon Territory,,2005,0.013710218,63.5431,-137.1948,Microtus pennsylvanicus,137.76,-30.6
+MSB_144479,MSB_144479_dor,3.384154135,1.219103989,Pacific,MainlandP,MainlandP,Mainland,10,female,Yukon Territory,,2005,0.015768957,63.8413,-135.4614,Microtus pennsylvanicus,136.64,-32.3
+MSB_145310,MSB_145310_dor,3.583309587,1.276286839,Pacific,MainlandP,MainlandP,Mainland,11,male,Yukon Territory,,2005,0.013710218,63.5431,-137.1948,Microtus pennsylvanicus,137.76,-30.6
+MSB_164894,MSB_164894_dor,3.422771036,1.230450467,Pacific,MainlandP,MainlandP,Mainland,11,female,Alaska,,1979,-0.099911226,63.956,-145.7634,Microtus pennsylvanicus tananaensis,129.7,-25
+MSB_164895,MSB_164895_dor,3.51561239,1.257213732,Pacific,MainlandP,MainlandP,Mainland,12,female,Alaska,,1979,-0.099911226,63.956,-145.7634,Microtus pennsylvanicus tananaensis,129.7,-25
+MSB_164896,MSB_164896_dor,3.622431771,1.28714556,Pacific,MainlandP,MainlandP,Mainland,12,male,Alaska,,1979,-0.099911226,63.956,-145.7634,Microtus pennsylvanicus tananaensis,129.7,-25
+MSB_164899,MSB_164899_dor,3.459811277,1.241214043,Pacific,MainlandP,MainlandP,Mainland,12,male,Alaska,,1979,-0.099911226,63.956,-145.7634,Microtus pennsylvanicus tananaensis,129.7,-25
+MSB_164900,MSB_164900_dor,3.415642922,1.228365739,Pacific,MainlandP,MainlandP,Mainland,12,female,Alaska,,1979,-0.099911226,63.956,-145.7634,Microtus pennsylvanicus tananaensis,129.7,-25
+MSB_164904,MSB_164904_dor,3.679729866,1.302839344,Pacific,MainlandP,MainlandP,Mainland,12,female,Alaska,,1980,-0.100037412,63.9597502,-145.6099083,Microtus pennsylvanicus tananaensis,132.08,-26.2
+MSB_164908,MSB_164908_dor,3.305985119,1.195734498,Pacific,MainlandP,MainlandP,Mainland,11,male,Alaska,,1980,-0.100039817,63.8994557,-145.6967763,Microtus pennsylvanicus tananaensis,130.34,-25.6
+MSB_164909,MSB_164909_dor,3.280394689,1.187963747,Pacific,MainlandP,MainlandP,Mainland,7,female,Alaska,,1980,-0.100039817,63.8994557,-145.6967763,Microtus pennsylvanicus tananaensis,130.34,-25.6
+MSB_164921,MSB_164921_dor,3.41268898,1.227500538,Pacific,MainlandP,MainlandP,Mainland,11,male,Alaska,,1980,-0.100169606,63.6499101,-145.8372043,Microtus pennsylvanicus tananaensis,129.66,-26.7
+MSB_164922,MSB_164922_dor,3.521206314,1.258803634,Pacific,MainlandP,MainlandP,Mainland,11,female,Alaska,,1980,-0.100169606,63.6499101,-145.8372043,Microtus pennsylvanicus tananaensis,129.66,-26.7
+MSB_193343,MSB_193343_dor,3.501943871,1.253318206,Pacific,MainlandP,MainlandP,Mainland,12,female,Alaska,,2008,-0.094831504,61.3546,-145.29275,Microtus pennsylvanicus,103.11,-22
+MSB_193480,MSB_193480_dor,3.452914123,1.239218548,Pacific,MainlandP,MainlandP,Mainland,12,male,Alaska,,2008,0.021806696,59.30032,-135.70419,Microtus pennsylvanicus,74.88,-14
+MSB_195107,MSB_195107_dor,3.523974128,1.259589366,Pacific,MainlandP,MainlandP,Mainland,11,male,Alaska,,2009,0.021821321,59.2665,-135.5996,Microtus pennsylvanicus,72.62,-11.8
+MSB_195119,MSB_195119_dor,3.244781621,1.177048051,Pacific,MainlandP,MainlandP,Mainland,9,male,Alaska,,2009,-0.094816863,61.34823,-145.30446,Microtus pennsylvanicus,103.11,-22
+MSB_269529,MSB_269529_dor,3.407310149,1.225923167,Pacific,MainlandP,MainlandP,Mainland,11,male,Alaska,,1951,0.137173408,61.8795,-151.2665,Microtus pennsylvanicus drummondii,104.91,-20.3
+MSB_269534,MSB_269534_dor,3.246328656,1.177524714,Pacific,MainlandP,MainlandP,Mainland,12,female,Alaska,,1955,0.138054253,61.1487965,-149.9660148,Microtus pennsylvanicus,88.15,-13.7
+MSB_269615,MSB_269615_dor,3.40248903,1.224507231,Pacific,MainlandP,MainlandP,Mainland,10,female,Alaska,,1951,0.137173408,61.8795,-151.2665,Microtus pennsylvanicus,104.91,-20.3
+MSB_269617,MSB_269617_dor,3.555361207,1.268456663,Pacific,MainlandP,MainlandP,Mainland,11,female,Alaska,,1951,0.137173408,61.8795,-151.2665,Microtus pennsylvanicus,104.91,-20.3
+UAM_36585,UAM_36585_dor,3.499358952,1.252579795,Pacific,MainlandP,MainlandP,Mainland,10,female,Yukon Territory,,1995,-0.039597428,60.83833333,-137.3291667,Microtus pennsylvanicus,117.41,-27
+UAM_58901,UAM_58901_dor,3.636048506,1.290897517,Pacific,MainlandP,MainlandP,Mainland,11,female,Yukon Territory,,2001,-0.102562319,62.23533333,-140.6815,Microtus pennsylvanicus,142.24,-32.9
+UAM_58902,UAM_58902_dor,3.619125772,1.286232497,Pacific,MainlandP,MainlandP,Mainland,10,male,Yukon Territory,,2001,-0.102562319,62.23533333,-140.6815,Microtus pennsylvanicus,142.24,-32.9
+UAM_58903,UAM_58903_dor,3.669961662,1.300181216,Pacific,MainlandP,MainlandP,Mainland,11,male,Yukon Territory,,2001,-0.102562319,62.23533333,-140.6815,Microtus pennsylvanicus,142.24,-32.9
+UAM_58909,UAM_58909_dor,3.558821012,1.269429314,Pacific,MainlandP,MainlandP,Mainland,10,male,Yukon Territory,,2001,-0.102562319,62.23533333,-140.6815,Microtus pennsylvanicus,142.24,-32.9
+UAM_58910,UAM_58910_dor,3.383685024,1.218965359,Pacific,MainlandP,MainlandP,Mainland,7,male,Yukon Territory,,2001,-0.102562319,62.23533333,-140.6815,Microtus pennsylvanicus,142.24,-32.9
+UAM_58912,UAM_58912_dor,3.484702598,1.248382703,Pacific,MainlandP,MainlandP,Mainland,10,male,Yukon Territory,,2001,-0.102562319,62.23533333,-140.6815,Microtus pennsylvanicus,142.24,-32.9
+UAM_58913,UAM_58913_dor1,3.567295418,1.271807723,Pacific,MainlandP,MainlandP,Mainland,10,male,Yukon Territory,,2001,-0.102562319,62.23533333,-140.6815,Microtus pennsylvanicus,142.24,-32.9
+UAM_58914,UAM_58914_dor1,3.321684258,1.200471961,Pacific,MainlandP,MainlandP,Mainland,7,female,Yukon Territory,,2001,-0.10256232,62.23533,-140.6815,Microtus pennsylvanicus,142.24,-32.9
+UAM_58915,UAM_58915_dor,3.53808797,1.26358646,Pacific,MainlandP,MainlandP,Mainland,11,male,Yukon Territory,,2001,-0.102562319,62.23533333,-140.6815,Microtus pennsylvanicus,142.24,-32.9
+UAM_58925,UAM_58925_dor1,3.481882758,1.24757317,Pacific,MainlandP,MainlandP,Mainland,9,male,Yukon Territory,,2001,-0.102562319,62.23533333,-140.6815,Microtus pennsylvanicus,142.24,-32.9
+UAM_58926,UAM_58926_dor,3.370207763,1.214974393,Pacific,MainlandP,MainlandP,Mainland,10,female,Yukon Territory,,2001,-0.102562319,62.23533333,-140.6815,Microtus pennsylvanicus,142.24,-32.9
+UAM_58927,UAM_58927_dor,3.432677373,1.233340532,Pacific,MainlandP,MainlandP,Mainland,10,male,Yukon Territory,,2001,-0.102562319,62.23533333,-140.6815,Microtus pennsylvanicus,142.24,-32.9
+UAM_58928,UAM_58928_dor,3.403939444,1.224933421,Pacific,MainlandP,MainlandP,Mainland,10,male,Yukon Territory,,2001,-0.102562319,62.23533333,-140.6815,Microtus pennsylvanicus,142.24,-32.9
+UAM_59852,UAM_59852_dor,3.498098221,1.252219455,Pacific,MainlandP,MainlandP,Mainland,10,male,British Columbia,,2001,0.047690503,56.35833333,-129.3416667,Microtus pennsylvanicus,79.11,-11.5
+UAM_59853,UAM_59853_dor1,3.304895682,1.195404909,Pacific,MainlandP,MainlandP,Mainland,7,male,British Columbia,,2001,0.047690503,56.35833,-129.34167,Microtus pennsylvanicus,79.11,-11.5
+UMMZ_115870,UMMZ_115870_dor1,3.591666704,1.278616358,Pacific,MainlandP,MainlandP,Mainland,12,male,Alaska,,1951,0.137877097,61.2986356,-149.5614214,Microtus pennsylvanicus drummondii,87.15,-14.4
+UMMZ_123795,UMMZ_123795_dor1,3.537842106,1.263516967,Pacific,MainlandP,MainlandP,Mainland,9,male,Alaska,,1953,-0.039102472,64.8633333,-147.9327778,Microtus pennsylvanicus tananaensis,140.99,-26.6
+USNM_170786,USNM_170786_dor4,3.408819705,1.226366104,Pacific,MainlandP,MainlandP,Mainland,12,female,British Columbia,,1910,0.04662613,57.089579,-130.3537679,Microtus pennsylvanicus rubidus,83.38,-14.6
+USNM_170788,USNM_170788_dor,3.525024002,1.259887245,Pacific,MainlandP,MainlandP,Mainland,12,female,British Columbia,,1910,0.032116639,56.8360032,-126.3399699,Microtus pennsylvanicus drummondii,93.66,-22.3
+USNM_170789,USNM_170789_dor1,3.41107762,1.227028259,Pacific,MainlandP,MainlandP,Mainland,12,male,British Columbia,,1910,0.016916653,56.6077877,-124.5774736,Microtus pennsylvanicus drummondii,104.48,-20.4
+USNM_170790,USNM_170790_dor1,3.532203436,1.261921879,Pacific,MainlandP,MainlandP,Mainland,12,male,British Columbia,,1910,0.016916653,56.6077877,-124.5774736,Microtus pennsylvanicus drummondii,104.48,-20.4
+USNM_170792,USNM_170792_dor1,3.257811175,1.181055551,Pacific,MainlandP,MainlandP,Mainland,11,female,British Columbia,,1910,0.016916653,56.6077877,-124.5774736,Microtus pennsylvanicus drummondii,104.48,-20.4
+USNM_170793,USNM_170793_dor1,3.294569558,1.192275525,Pacific,MainlandP,MainlandP,Mainland,8,female,British Columbia,,1910,0.016916653,56.6077877,-124.5774736,Microtus pennsylvanicus drummondii,104.48,-20.4
+USNM_170804,USNM_170804_dor,3.26454675,1.183120932,Pacific,MainlandP,MainlandP,Mainland,11,female,British Columbia,,1910,0.015599474,56.0259806,-121.9199258,Microtus pennsylvanicus drummondii,101.29,-17.1
+USNM_170806,USNM_170806_dor1,3.391657345,1.221318694,Pacific,MainlandP,MainlandP,Mainland,10,male,British Columbia,,1910,0.015599474,56.0259806,-121.9199258,Microtus pennsylvanicus drummondii,101.29,-17.1
+USNM_206114,USNM_206114_dor4,3.487978693,1.249322397,Pacific,MainlandP,MainlandP,Mainland,12,male,British Columbia,,1914,0.052620758,57.9034246,-131.1557028,Microtus pennsylvanicus rubidus,100.16,-18.3
+USNM_206115,USNM_206115_dor2,3.464943039,1.242696194,Pacific,MainlandP,MainlandP,Mainland,12,male,British Columbia,,1914,0.052620758,57.9034246,-131.1557028,Microtus pennsylvanicus rubidus,100.16,-18.3
+USNM_206116,USNM_206116_dor1,3.338769666,1.205602376,Pacific,MainlandP,MainlandP,Mainland,11,female,British Columbia,,1914,0.052620758,57.9034246,-131.1557028,Microtus pennsylvanicus rubidus,100.16,-18.3
+MSB_136608,MSB_136608_dor,3.200667542,1.163359395,Pacific,MainlandP,MainlandP,Mainland,11,male,Alaska,,1956,0.138001852,61.1231919,-149.8208966,Microtus pennsylvanicus,86.78,-14.1
+MSB_136609,MSB_136609_dor,3.270042074,1.184802851,Pacific,MainlandP,MainlandP,Mainland,10,female,Alaska,,1956,0.138001852,61.1231919,-149.8208966,Microtus pennsylvanicus,86.78,-14.1
+MSB_136678,MSB_136678_dor,3.430960187,1.23284016,Pacific,MainlandP,MainlandP,Mainland,8,male,Alaska,,1957,0.138065944,61.1742,-149.9983,Microtus pennsylvanicus,88.84,-13.9
+MSB_136679,MSB_136679_dor,3.443081018,1.236366715,Pacific,MainlandP,MainlandP,Mainland,10,male,Alaska,,1957,0.138040984,61.1978307,-149.8893215,Microtus pennsylvanicus,89.31,-14.3
+MSB_136680,MSB_136680_dor,3.457908514,1.240663931,Pacific,MainlandP,MainlandP,Mainland,10,female,Alaska,,1957,0.138040984,61.1978307,-149.8893215,Microtus pennsylvanicus,89.31,-14.3
+MSB_136681,MSB_136681_dor,3.479481365,1.24688325,Pacific,MainlandP,MainlandP,Mainland,11,female,Alaska,,1957,0.138040984,61.1978307,-149.8893215,Microtus pennsylvanicus,89.31,-14.3
+MSB_136769,MSB_136769_dor,3.512989972,1.256467519,Pacific,MainlandP,MainlandP,Mainland,11,male,Alaska,,1960,0.138065944,61.1742,-149.9983,Microtus pennsylvanicus,88.84,-13.9
+MSB_137102,MSB_137102_dor,3.534123538,1.26246533,Pacific,MainlandP,MainlandP,Mainland,12,female,Alaska,,1962,0.138014656,61.1223749,-149.8541996,Microtus pennsylvanicus,87.49,-13.9
+MSB_137173,MSB_137173_dor,3.351395926,1.209376953,Pacific,MainlandP,MainlandP,Mainland,10,male,Alaska,,1962,-0.158526654,62.5685362,-143.4716791,Microtus pennsylvanicus,120.67,-26.3
+MSB_138000,MSB_138000_dor,3.337058845,1.205089834,Pacific,MainlandP,MainlandP,Mainland,8,female,Alaska,,1969,-0.052970652,65.4833333,-144.6341667,Microtus pennsylvanicus,155.38,-32.1
+MSB_138152,MSB_138152_dor,3.42274885,1.230443986,Pacific,MainlandP,MainlandP,Mainland,9,female,Alaska,,1972,-0.044300001,64.9118487,-147.8313671,Microtus pennsylvanicus,142.33,-26.4
+MSB_144037,MSB_144037_dor,3.457029212,1.240409611,Pacific,MainlandP,MainlandP,Mainland,12,male,Alaska,,2005,-0.060369522,64.7533,-141.2301,Microtus pennsylvanicus,146.48,-31
+MSB_148898,MSB_148898_dor,3.479034806,1.246754901,Pacific,MainlandP,MainlandP,Mainland,11,male,Alaska,,2006,0.052114531,56.78053333,-132.2689833,Microtus pennsylvanicus,58.1,-9.1
+MSB_156786,MSB_156786_dor,3.698778624,1.308002664,Pacific,MainlandP,MainlandP,Mainland,12,male,Alaska,,2007,0.136810673,60.38928611,-151.2955806,Microtus pennsylvanicus,81.14,-14.9
+MSB_164892,MSB_164892_dor,3.440436836,1.235598451,Pacific,MainlandP,MainlandP,Mainland,11,male,Alaska,,1979,-0.099776334,64.1420695,-145.6296503,Microtus pennsylvanicus tananaensis,134.59,-26.5
+UAM_48541,UAM_48541_dor,3.311596993,1.197430548,Pacific,MainlandP,MainlandP,Mainland,8,male,British Columbia,,1995,0.046402214,58.18805556,-129.8880556,Microtus pennsylvanicus,91.36,-21.6
+UAM_48617,UAM_48617_dor1,3.301070997,1.19424696,Pacific,MainlandP,MainlandP,Mainland,9,female,British Columbia,,1995,0.052599182,57.86555556,-131.2844444,Microtus pennsylvanicus,98.97,-16.9
+UAM_48619,UAM_48619_dor1,3.337418904,1.205197725,Pacific,MainlandP,MainlandP,Mainland,10,male,British Columbia,,1995,0.046402214,58.18805556,-129.8880556,Microtus pennsylvanicus,91.36,-21.6
+UAM_48620,UAM_48620_dor,3.383420388,1.218887147,Pacific,MainlandP,MainlandP,Mainland,11,male,British Columbia,,1995,0.032868959,59.70638889,-133.59,Microtus pennsylvanicus,95.88,-21.4
+UAM_48621,UAM_48621_dor1,3.31302281,1.197861008,Pacific,MainlandP,MainlandP,Mainland,9,male,British Columbia,,1995,0.032868959,59.70638889,-133.59,Microtus pennsylvanicus,95.88,-21.4
+UAM_48625,UAM_48625_dor,3.347870814,1.208324566,Pacific,MainlandP,MainlandP,Mainland,9,female,British Columbia,,1995,0.04662928,57.13555556,-130.2863889,Microtus pennsylvanicus,82.45,-15.2
+UAM_52277,UAM_52277_dor,3.215472464,1.167974303,Pacific,MainlandP,MainlandP,Mainland,10,male,British Columbia,,1995,0.032868959,59.70638889,-133.59,Microtus pennsylvanicus,95.88,-21.4
+UAM_59835,UAM_59835_dor1,3.434564591,1.233890161,Pacific,MainlandP,MainlandP,Mainland,8,female,British Columbia,,2001,0.047690503,56.35833333,-129.3416667,Microtus pennsylvanicus,79.11,-11.5
+UAM_59851,UAM_59851_dor,3.358597008,1.21152333,Pacific,MainlandP,MainlandP,Mainland,10,female,British Columbia,,2001,0.047690503,56.35833333,-129.3416667,Microtus pennsylvanicus,79.11,-11.5
+UAM_64680,UAM_64680_dor,3.415558757,1.228341098,Pacific,MainlandP,MainlandP,Mainland,10,male,Alaska,,2002,-0.153119129,61.45694444,-143.7961111,Microtus pennsylvanicus,95.97,-19.3
+UAM_64683,UAM_64683_dor,3.382083894,1.218492056,Pacific,MainlandP,MainlandP,Mainland,10,male,Alaska,,2002,-0.153119129,61.45694444,-143.7961111,Microtus pennsylvanicus,95.97,-19.3
+UAM_64684,UAM_64684_dor1,3.605070962,1.282341455,Pacific,MainlandP,MainlandP,Mainland,12,male,Alaska,,2002,-0.153119129,61.45694444,-143.7961111,Microtus pennsylvanicus,95.97,-19.3
+UAM_64685,UAM_64685_dor2,3.668201275,1.299701426,Pacific,MainlandP,MainlandP,Mainland,12,male,Alaska,,2002,-0.153119129,61.45694444,-143.7961111,Microtus pennsylvanicus,95.97,-19.3
+UAM_64702,UAM_64702_dor2,3.440371877,1.235579569,Pacific,MainlandP,MainlandP,Mainland,9,female,Alaska,,2002,-0.153119129,61.45694444,-143.7961111,Microtus pennsylvanicus,95.97,-19.3
+MSB_269530,MSB_269530_dor,3.393257683,1.221790428,Pacific,MainlandP,MainlandP,Mainland,8,male,Alaska,,1951,0.137173408,61.8795,-151.2665,Microtus pennsylvanicus drummondii,104.91,-20.3
+MSB_136610,MSB_136610_dor,3.308555833,1.19651179,Pacific,MainlandP,MainlandP,Mainland,9,male,Alaska,,1956,0.138001852,61.1231919,-149.8208966,Microtus pennsylvanicus,86.78,-14.1
+MSB_136673,MSB_136673_dor,3.490076612,1.249923688,Pacific,MainlandP,MainlandP,Mainland,8,female,Alaska,,1957,0.136115246,61.477,-149.2531,Microtus pennsylvanicus,88.04,-15.1
+MSB_136676,MSB_136676_dor,3.49035768,1.250004218,Pacific,MainlandP,MainlandP,Mainland,10,male,Alaska,,1957,0.138065944,61.1742,-149.9983,Microtus pennsylvanicus,88.84,-13.9
+MSB_136677,MSB_136677_dor,3.632398859,1.289893273,Pacific,MainlandP,MainlandP,Mainland,10,female,Alaska,,1957,0.138065944,61.1742,-149.9983,Microtus pennsylvanicus,88.84,-13.9
+MSB_137656,MSB_137656_dor,3.558020799,1.269204435,Pacific,MainlandP,MainlandP,Mainland,10,female,Alaska,,1965,0.138003654,61.122,-149.826,Microtus pennsylvanicus,86.78,-14.1
+MSB_144161,MSB_144161_dor,3.32616433,1.201819787,Pacific,MainlandP,MainlandP,Mainland,10,female,Yukon Territory,,2005,0.024691911,61.1,-135.2934,Microtus pennsylvanicus,116.68,-25.3
+MSB_144168,MSB_144168_dor,3.334557587,1.204340013,Pacific,MainlandP,MainlandP,Mainland,9,male,Yukon Territory,,2005,0.024691911,61.1,-135.2934,Microtus pennsylvanicus,116.68,-25.3
+MSB_144447,MSB_144447_dor,3.450413932,1.238494204,Pacific,MainlandP,MainlandP,Mainland,11,female,Yukon Territory,,2005,0.015768957,63.8413,-135.4614,Microtus pennsylvanicus,136.64,-32.3
+MSB_144466,MSB_144466_dor,3.411901401,1.227269731,Pacific,MainlandP,MainlandP,Mainland,9,male,Yukon Territory,,2005,0.015768957,63.8413,-135.4614,Microtus pennsylvanicus,136.64,-32.3
+MSB_164893,MSB_164893_dor,3.550889918,1.267198253,Pacific,MainlandP,MainlandP,Mainland,10,female,Alaska,,1979,-0.099911226,63.956,-145.7634,Microtus pennsylvanicus tananaensis,129.7,-25
+MSB_164898,MSB_164898_dor,3.484495744,1.24832334,Pacific,MainlandP,MainlandP,Mainland,11,male,Alaska,,1979,-0.099911226,63.956,-145.7634,Microtus pennsylvanicus tananaensis,129.7,-25
+MSB_164937,MSB_164937_dor,3.450531065,1.238528151,Pacific,MainlandP,MainlandP,Mainland,9,male,Alaska,,1983,0.137626955,61.3273,-149.2802,Microtus pennsylvanicus alcorni,78.12,-15.1
+MSB_164938,MSB_164938_dor,3.521237555,1.258812506,Pacific,MainlandP,MainlandP,Mainland,10,female,Alaska,,1983,0.137626955,61.3273,-149.2802,Microtus pennsylvanicus alcorni,78.12,-15.1
+MSB_269616,MSB_269616_dor,3.377209151,1.217049673,Pacific,MainlandP,MainlandP,Mainland,10,female,Alaska,,1951,0.137173408,61.8795,-151.2665,Microtus pennsylvanicus,104.91,-20.3
+UAM_34176,UAM_34176_dor,3.58493961,1.276741629,Pacific,MainlandP,MainlandP,Mainland,12,male,Yukon Territory,,1995,0.021917435,60.03,-135,Microtus pennsylvanicus,95.63,-22
+UAM_48622,UAM_48622_dor,3.378414251,1.217406443,Pacific,MainlandP,MainlandP,Mainland,10,female,British Columbia,,1995,0.032868959,59.70638889,-133.59,Microtus pennsylvanicus,95.88,-21.4
+UAM_48623,UAM_48623_dor1,3.260964239,1.18202293,Pacific,MainlandP,MainlandP,Mainland,8,male,British Columbia,,1995,0.032868959,59.70638889,-133.59,Microtus pennsylvanicus,95.88,-21.4
+UAM_58898,UAM_58898_dor1,3.704838569,1.309639687,Pacific,MainlandP,MainlandP,Mainland,10,female,Yukon Territory,,2001,-0.102562319,62.23533333,-140.6815,Microtus pennsylvanicus,142.24,-32.9
+UAM_58900,UAM_58900_dor1,3.659766523,1.297399354,Pacific,MainlandP,MainlandP,Mainland,9,male,Yukon Territory,,2001,-0.102562319,62.23533333,-140.6815,Microtus pennsylvanicus,142.24,-32.9
+UAM_59826,UAM_59826_dor,3.633023734,1.290065286,Pacific,MainlandP,MainlandP,Mainland,11,male,British Columbia,,2001,0.047690503,56.35833333,-129.3416667,Microtus pennsylvanicus,79.11,-11.5
+UAM_59827,UAM_59827_dor,3.551519506,1.267375542,Pacific,MainlandP,MainlandP,Mainland,10,female,British Columbia,,2001,0.047690503,56.35833333,-129.3416667,Microtus pennsylvanicus,79.11,-11.5
+UAM_59832,UAM_59832_dor,3.579484134,1.275218693,Pacific,MainlandP,MainlandP,Mainland,7,female,British Columbia,,2001,0.047690503,56.35833333,-129.3416667,Microtus pennsylvanicus,79.11,-11.5
+UAM_59833,UAM_59833_dor,3.475329595,1.245689322,Pacific,MainlandP,MainlandP,Mainland,9,male,British Columbia,,2001,0.047690503,56.35833333,-129.3416667,Microtus pennsylvanicus,79.11,-11.5
+UAM_59837,UAM_59837_dor,3.462261795,1.241922073,Pacific,MainlandP,MainlandP,Mainland,8,male,British Columbia,,2001,0.047690503,56.35833333,-129.3416667,Microtus pennsylvanicus,79.11,-11.5
+UAM_64699,UAM_64699_dor,3.378053631,1.217299695,Pacific,MainlandP,MainlandP,Mainland,11,male,Alaska,,2002,-0.153119129,61.45694444,-143.7961111,Microtus pennsylvanicus,95.97,-19.3
+UAM_64700,UAM_64700_dor,3.373222654,1.215868565,Pacific,MainlandP,MainlandP,Mainland,7,female,Alaska,,2002,-0.153119129,61.45694444,-143.7961111,Microtus pennsylvanicus,95.97,-19.3
