@@ -7,7 +7,8 @@ Jan 13
 
 Jan 18
 : **Section**{: .label .label-purple }[Basic Linux Commands](../assets/content/Useful_Linux_Commands.pdf)
-  : [Sample Data](../assets/content/Sample_Data.csv), [Sample Sequence](../assets/content/sample_Sequence.fasta)
+  : [Sample Data](../assets/content/Sample_Data.csv), 
+   [Sample Sequence](../assets/content/sample_sequence.fasta)
 
 <!-- Jan 20
 : [Navigation and Paths](#)
