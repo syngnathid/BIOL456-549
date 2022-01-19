@@ -1,14 +1,13 @@
 ---
-title: Introduction to Bash
+title: 
 ---
 
 Jan 13
-: [Outline](Week01_outline.docx)
-  : [Week 1]()
+: [Outline](../assets/content/Week01_outline.docx)
 
 Jan 18
-: **Section**{: .label .label-purple }[Basic Linux Commands](Useful_Linux_Commands.pdf)
-  : [Sample Data](Sample_Data.csv)[Sample Sequence](sample_Sequence.fasta)
+: **Section**{: .label .label-purple }[Basic Linux Commands](../assets/content/Useful_Linux_Commands.pdf)
+  : [Sample Data](../assets/content/Sample_Data.csv), [Sample Sequence](../assets/content/sample_Sequence.fasta)
 
 <!-- Jan 20
 : [Navigation and Paths](#)
