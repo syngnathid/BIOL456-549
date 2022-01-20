@@ -14,7 +14,7 @@ Workflow managers provide a framework for the creation, execution, and monitorin
 
 An example of a conda environment file is available below. The programs installed and their dependencies along with their version number is readily accessible. Further, this file can be used for recreating the same environment in which the original analysis was done!
 
-<p>Click here for the Conda Environment File <a href="https://syngnathid.github.io/BIOL456-549/assets/content/busco.yaml" target="_blank"></a>.</p>
+<p><a href="https://syngnathid.github.io/BIOL456-549/assets/content/busco.yaml" target="_blank">Click here for the Conda Environment File </a>.</p>
 
 
 ## Why  `conda`  specifically?  
