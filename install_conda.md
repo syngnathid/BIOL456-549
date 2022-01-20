@@ -1,3 +1,9 @@
+---
+layout: page
+title: Install Conda and Biopython
+nav_exclude: true
+---
+
 ## Why do we need package managers such as  `conda`  ?
 
 ### Problem:  
