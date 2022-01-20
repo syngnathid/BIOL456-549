@@ -17,7 +17,7 @@ An example of a conda environment file is available below. The programs installe
 <details><summary>Click here for the Conda Environment File</summary>
 <p>
 
-```yaml
+<pre><code>
 name: busco
 channels:
   - bioconda
@@ -299,7 +299,7 @@ dependencies:
   - xz=5.2.5=h516909a_1
   - zlib=1.2.11=h36c2ea0_1013
   - zstd=1.5.0=ha95c52a_0
-```
+</code></pre>
 </p>
 </details>
 
