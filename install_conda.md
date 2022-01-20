@@ -23,6 +23,7 @@ Yes but No. Pip is a package manager that is designed to install Python packages
 Conda offers virtual environment capabilities and can run on multiple operating systems like Windows, Linux, and macOS. With Conda, you will be able to create, load, save, and switch between different environments. [<sup>2</sup>](https://linuxnetmag.com/miniconda-vs-anaconda/)
 
 ![Miniconda vs Anaconda](https://linuxnetmag.com/wp-content/uploads/2020/11/MinicondavsAnaconda.jpg)
+[<sub>Image Source</sub>](https://linuxnetmag.com/miniconda-vs-anaconda/)
 
 ## How to install  `conda`  ?  
 
