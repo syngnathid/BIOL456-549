@@ -3,6 +3,13 @@ layout: page
 title: Install Conda and Biopython
 nav_exclude: true
 ---
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
 
 ## Why do we need package managers such as  `conda`  ?
 
@@ -12,25 +19,26 @@ The analysis of biological data is driven by the development of an extensive arr
 ### Solution:  
 Workflow managers provide a framework for the creation, execution, and monitoring of pipelines. In recent years, a number of workflow managers have been specifically designed for biological data. [<sup>1</sup>](https://www.nature.com/articles/s41592-021-01254-9)
 
-An example of a conda environment file is available below. The programs installed and their dependencies along with their version number is readily accessible. Further, this file can be used for recreating the same environment in which the original analysis was done!
-
-<p><a href="https://syngnathid.github.io/BIOL456-549/assets/content/busco.yaml" target="_blank">Click here for the Conda Environment File </a>.</p>
-
-
 ## Why  `conda`  specifically?  
 Conda provides an isolated environment for pipeline execution in addition to efficiently installing pipeline dependencies. In particular, [Bioconda](https://bioconda.github.io/), a Conda channel specializing in bioinformatics, has contributed to the availability and ease of installation of bioinformatics tools. Bioconda provides over 8,000 maintained and curated Conda recipes for bioinformatics software. [<sup>1</sup>](https://www.nature.com/articles/s41592-021-01254-9)
 
 
-## I have used  `pip`  before, can I simply use pip instead of  `conda`  ?
+An example of a conda environment file is available below. The programs installed and their dependencies along with their version number is readily accessible. Further, this file can be used for recreating the same environment in which the original analysis was done!
+
+<p><a href="https://syngnathid.github.io/BIOL456-549/assets/content/busco.yaml" target="_blank">Click here for the Conda Environment File </a>.</p>
+
+<!-- ## I have used  `pip`  before, can I simply use pip instead of  `conda`  ?
 
 Yes but No. Pip is a package manager that is designed to install Python packages exclusively. In contrast, Conda is an open-source installer and package-management tool that can also handle both Python and non-Python library dependencies (like `ggplot` package for R program) 
 
 Conda offers virtual environment capabilities and can run on multiple operating systems like Windows, Linux, and macOS. With Conda, you will be able to create, load, save, and switch between different environments. [<sup>2</sup>](https://linuxnetmag.com/miniconda-vs-anaconda/)
+ -->
+
+## How to install  `conda`  ?  
 
 ![Miniconda vs Anaconda](https://linuxnetmag.com/wp-content/uploads/2020/11/MinicondavsAnaconda.jpg)
 [<sub>Image Source</sub>](https://linuxnetmag.com/miniconda-vs-anaconda/)
 
-## How to install  `conda`  ?  
 
 For this course, we will install miniconda as it has a lighter footprint on storage.
 
