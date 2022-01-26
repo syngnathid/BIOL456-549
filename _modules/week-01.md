@@ -16,7 +16,7 @@ Jan 20
 
 Jan 25
 : **Lecture**{: .label .label-purple } [Advanced Linux Commands (Coming soon)](#)
-  :[Fasta File](../assets/content/fasta_example.fasta),[Fastq File](../assets/content/fastq_example.fastq)
+  : [Fasta File](../assets/content/fasta_example.fasta),[Fastq File](../assets/content/fastq_example.fastq)
 
 <!-- Jan 27
 : [Search Commands](#)
