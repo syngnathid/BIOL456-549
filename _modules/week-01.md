@@ -21,3 +21,6 @@ Jan 25
 Jan 27
 : **Assignment**{: .label .label-red }[In Class](../assets/content/Week03_Thursday.pdf)
   : [Newt Data](../assets/content/newt_data.tar.gz)
+
+Feb 01
+: **Lecture**{: .label .label-purple }[Discussion and Assignment Preparation](../assets/content/week04_assignment.docx)
