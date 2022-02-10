@@ -15,7 +15,7 @@ Jan 20
   : [SRR13075764.1](https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos3/sra-pub-run-19/SRR13075764/SRR13075764.1)
 
 Jan 25
-: **Lecture**{: .label .label-purple } [Advanced Linux Commands](../assets/content/Week03_Tuesday.pdf)
+: [Advanced Linux Commands](../assets/content/Week03_Tuesday.pdf)
   : [Fasta File](../assets/content/fasta_example.fasta),[Fastq File](../assets/content/fastq_example.fastq)
 
 Jan 27
@@ -23,14 +23,14 @@ Jan 27
   : [Newt Data](../assets/content/newt_data.tar.gz)
 
 Feb 01
-: **Lecture**{: .label .label-purple }[Discussion and Assignment Preparation](../assets/content/week04_assignment.docx)
+: [Discussion and Assignment Preparation](../assets/content/week04_assignment.docx)
 
 Feb 03
-: **Lecture**{: .label .label-purple }[Coming Soon]()
+: [Coming Soon]()
 
 Feb 08
 : **Assignment**{: .label .label-red } Canvas Quiz - 1
 
 Feb 10
-: **Lecture**{: .label .label-purple }[Lecture](../assets/content/Thursday_Lecture.pdf)
- : [Exercise](../assets/content/Thursday_Exercise.pdf)
+: [Lecture](../assets/content/Thursday_Lecture.pdf)
+  : [Exercise](../assets/content/Thursday_Exercise.pdf)
