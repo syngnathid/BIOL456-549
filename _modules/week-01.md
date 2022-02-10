@@ -24,3 +24,13 @@ Jan 27
 
 Feb 01
 : **Lecture**{: .label .label-purple }[Discussion and Assignment Preparation](../assets/content/week04_assignment.docx)
+
+Feb 03
+: **Lecture**{: .label .label-purple }[Coming Soon]()
+
+Feb 08
+: **Assignment**{: .label .label-red } Canvas Quiz - 1
+
+Feb 10
+: **Lecture**{: .label .label-purple }[Lecture](../assets/content/Thursday_Lecture.pdf)
+ : [Exercise](../assets/content/Thursday_Exercise.pdf)
