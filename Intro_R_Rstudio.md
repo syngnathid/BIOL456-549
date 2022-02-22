@@ -14,15 +14,15 @@ In this lesson will teach you how to start this process using R and RStudio. We 
 
 ### Why is it popular/ widely-used?
 
-![](./job_1.png)
-![](./job_2.png)
-![](./job_3.png)
+![](../assets/content/job_1.png)
+![](../assets/content/job_2.png)
+![](../assets/content/job_3.png)
 
 ## R at the console.
 
 Launch R
 
-![](./R_console.png)
+![](../assets/content/R_console.png)
 
 Notice the default panes:
 
@@ -32,7 +32,7 @@ Notice the default panes:
 
 Once you open files, such as R scripts, an editor panel will also open in the top left.
 
-![](./R_console_ed.png)
+![](../assets/content/R_console_ed.png)
 
 
 An important first question: **where are we?**

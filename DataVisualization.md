@@ -82,7 +82,7 @@ ggplot(data = variants, aes(x = POS, y = DP)) +
 geom_point()
 ```
 
-![](plot1.png)
+![](../assets/content/plot1.png)
 
 ## Resources
 
