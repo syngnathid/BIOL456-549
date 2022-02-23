@@ -1,3 +1,8 @@
+---
+layout: page
+title: Introduction to Rmarkdown and Reproducible Research
+nav_exclude: true
+---
 
 # Producing Reports With `knitr`
 

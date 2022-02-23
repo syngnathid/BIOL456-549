@@ -1,3 +1,9 @@
+---
+layout: page
+title: Data Visualization using ggplot2
+nav_exclude: true
+---
+
 ## Visualization using `ggplot2`
 
 

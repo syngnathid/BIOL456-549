@@ -1,3 +1,9 @@
+---
+layout: page
+title: Introduction to R and Rstudio
+nav_exclude: true
+---
+
 ## Why R and Rstudio?
 
 R is one of the [most widely-used and powerful programming languages](https://pypl.github.io/PYPL.html?country=US) in bioinformatics. R especially shines where a variety of statistical tools are required (e.g. RNA-Seq, population genomics, etc.) and in the generation of publication-quality graphs and figures. Rather than get into an R vs. Python debate (both are useful), keep in mind that many of the concepts you will learn apply to Python and other programming languages.

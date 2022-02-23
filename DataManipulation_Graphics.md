@@ -1,3 +1,8 @@
+---
+layout: page
+title: Data Manipulation using tidyr and dplyr
+nav_exclude: true
+---
 
 ## Data Manipulation using `tidyr` and `dplyr`
 
