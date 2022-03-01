@@ -381,23 +381,23 @@ Notice in the operation above that R inserts an `NA` value to extend our vector 
 
 There is one last set of cool subsetting capabilities we want to introduce. It is possible within R to retrieve items in a vector based on a logical evaluation or numerical comparison. For example, let's say we wanted get all of the SNPs in our vector of SNP positions that were greater than 100,000,000. We could index using the '>' (greater than) logical operator:
 
-```{r, purl = FALSE}
+```r
 snp_positions[snp_positions > 100000000]
 ```
 
 In the square brackets you place the name of the vector followed by the comparison operator and (in this case) a numeric value. Some of the most common logical operators you will use in R are:
 
-  | Operator | Description              |
-  |----------|--------------------------|
-  | <        | less than                |
-  | <=       | less than or equal to    |
-  | >        | greater than             |
-  | >=       | greater than or equal to |
-  | ==       | exactly equal to         |
-  | !=       | not equal to             |
-  | !x       | not x                    |
-  | a \| b   | a or b                   |
-  | a & b    | a and b                  |
+| Operator | Description              |
+|----------|--------------------------|
+| <        | less than                |
+| <=       | less than or equal to    |
+| >        | greater than             |
+| >=       | greater than or equal to |
+| ==       | exactly equal to         |
+| !=       | not equal to             |
+| !x       | not x                    |
+| a \| b   | a or b                   |
+| a & b    | a and b                  |
 
 
 > ## The magic of programming
