@@ -1,3 +1,9 @@
+---
+layout: page
+title: Demo
+nav_exclude: true
+---
+
 # Markdown Demo
 
 
