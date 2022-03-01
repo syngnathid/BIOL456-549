@@ -122,66 +122,132 @@ Let's work in scripting mode from now on so that you will have the record of all
 
 ### Variables/objects
 
-One of the main concepts of any programming language is a notion of a **variable**. Variables are created to store values for future use. 
-To assign a value to a variable in R, use `<-` (Alt + dash) assignment operator:
+## Creating objects in R
 
-```
-### Variables
+What might be called a variable in many languages is called an **object**
+in R.
 
-#variable `name` that stores value "Jane"
-name <- "Jane"
-print(name)
+**To create an object you need:**
 
-#variable `price` that stores value 3.99
-price <- 3.99
-print(price)
+- a name (e.g. 'a')
+- a value (e.g. '1')
+- the assignment operator ('<-')
 
-### working with environment
-#remember what env does? it stores the objects you created. Let's see what the environment tab show us.
-#How to see the list of variables on the screen?
+Using the R assignment operator '<-',
+assign '1' to the object 'a' as shown. Remember to leave a comment in the line
+above (using the '#') to explain what you are doing:
 
-#list all objects in your environment
-ls()
-
-#how to remove an object?
-#rm(objectName)
-rm(price)
-
-#remove all objects, clear environment
-rm(list=ls()) 
-
+```r
+# this line creates the object 'a' and assigns it the value '1'
+a <- 1
 ```
 
+Next, run this line of code in your script. You can run a line of code
+by hitting the <KBD>Run</KBD> button that is just above the first line of your
+script in the header of the Source pane or you can use the appropriate shortcut:
+
+- Windows execution shortcut: <KBD>Ctrl</KBD>+<KBD>Enter</KBD>
+- Mac execution shortcut: <KBD>Cmd(⌘)</KBD>+<KBD>Enter</KBD>
+
+To run multiple lines of code, you can highlight all the line you wish to run
+and then hit <KBD>Run</KBD> or use the shortcut key combo listed above.
+
+In the RStudio 'Console' you should see:
+
+```r
+a <- 1
+```
+
+The `Console` will display lines of code run from a script and any outputs or
+status/warning/error messages (usually in red).
+
+In the `Environment` window you will also get a table:
+
+|Values||
+|------|-|
+|a|1|
+
+The `Environment` window allows you to keep track of the objects you have
+created in R.
+
+## Exercise: Create some objects in R
+
+Create the following objects; give each object an appropriate name (your best guess at what name to use is fine):
+
+1. Create an object that has the value of number of pairs of human chromosomes
+2. Create an object that has a value of your favorite gene name
+3. Create an object that has this URL as its value: "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/699/485/GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b/GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b_genomic.fna.gz"
+4. Create an object that has the value of the number of chromosomes in a diploid human cell
+
+## Solution
+
+Here as some possible answers to the challenge:
+
+```r
+human_chr_number <- 23
+gene_name <- "pten"
+ensemble_url <- "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/016/699/485/GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b/GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b_genomic.fna.gz"
+human_diploid_chr_num <-  2 * human_chr_number
+```
+
+## Reassigning object names or deleting objects
+
+Once an object has a value, you can change that value by overwriting it. R will
+not give you a warning or error if you overwriting an object, which
+may or may not be a good thing
+depending on how you look at it.
+
+```r
+# gene_name has the value 'pten' or whatever value you used in the challenge.
+# We will now assign the new value 'tp53'
+gene_name <- 'tp53'
+```
+
+You can also remove an object from R's memory entirely. The `rm()` function
+will delete the object.
+
+```r
+# delete the object 'gene_name'
+rm(gene_name)
+```
+
+If you run a line of code that has only an object name, R will normally display
+the contents of that object. In this case, we are told the object no
+longer exists.
 
 ### Data types and Data structures
 
+## Understanding object data types (modes)
 
-#### Smallest units in R: single-element data structures
+In R, **every object has two properties**:
 
-Let's assign value of 45 to a variable `age`. We just created the smallest object in R:
-```
-age <- 45
+- **Length**: How many distinct values are held in that object
+- **Mode**: What is the classification (type) of that object.
 
-#some useful functions to know more about the object 
-length(age)
-str(age)
-```
-Variables can hold values of various types. Most common data types:
+We will get to the "length" property later in the lesson. The **"mode" property**
+**corresponds to the type of data an object represents**. The most common modes
+you will encounter in R are:
 
-* numeric(double+integer)
-* character
-* logical
-* complex
-* ...
+|Mode (abbreviation)|Type of data|
+|----|------------|
+|Numeric (num)| Numbers such floating point/decimals (1.0, 0.5, 3.14), there are also more specific numeric types (dbl - Double, int - Integer). These differences are not relevant for most beginners and pertain to how these values are stored in memory |
+|Character (chr)|A sequence of letters/numbers in single '' or double " " quotes|
+|Logical| Boolean values - TRUE or FALSE|
 
-To find out the data type of an object, use `typof()` function:
+There are a few other modes (i.e. "complex", "raw" etc.) but these
+are the three we will work with in this lesson.
 
-```
-score<-79
-typeof(score)
-is.integer(score)
-typeof(is.integer(score))
-```
+Data types are familiar in many programming languages, but also in natural
+language where we refer to them as the parts of speech, e.g. nouns, verbs,
+adverbs, etc. Once you know if a word - perhaps an unfamiliar one - is a noun,
+you can probably guess you can count it and make it plural if there is more than
+one (e.g. 1 [Tuatara](https://en.wikipedia.org/wiki/Tuatara), or 2 Tuataras). If
+something is a adjective, you can usually change it into an adverb by adding
+"-ly" (e.g. [jejune](https://www.merriam-webster.com/dictionary/jejune) vs.
+jejunely). Depending on the context, you may need to decide if a word is in one
+category or another (e.g "cut" may be a noun when it's on your finger, or a verb
+when you are preparing vegetables). These concepts have important analogies when
+working with R objects.
 
 **A note on variable names:**
 * NO SPACES in names
@@ -191,11 +257,200 @@ typeof(is.integer(score))
 
 #### Data structures with multiple elements
 We can combine single elements into collections of items.
-Look at the gapminder dataset again. 
-Our smallest unit can represent a single element in the dataset, like individual year, or individual country, 
-but what would be the simplest object that you can make with multiple elements?
 
-* **Vectors**: collection of elements of the same data type
+## Vectors
+
+Vectors are probably the
+most used commonly used object type in R. 
+**A vector is a collection of values that are all of the same type (numbers, characters, etc.)**. 
+One of the most common
+ways to create a vector is to use the `c()` function - the "concatenate" or
+"combine" function. Inside the function you may enter one or more values; for
+multiple values, separate each value with a comma:
+
+```r
+# Create the SNP gene name vector
+snp_genes <- c("OXTR", "ACTN3", "AR", "OPRM1")
+```
+
+Vectors always have a **mode** and a **length**. You can check these with the `mode()` and `length()` functions respectively. Another useful function that gives both of these pieces of information is the `str()` (structure) function.
+
+```r
+# Check the mode, length, and structure of 'snp_genes'
+mode(snp_genes)
+length(snp_genes)
+str(snp_genes)
+```
+
+Vectors are quite important in R. Another data type that we will work with in next part, data frames, are collections of vectors. What we learn here about vectors will pay off even more when we start working with data frames. 
+
+## Creating and subsetting vectors
+
+Let's create a few more vectors to play around with:
+
+```r
+# Some interesting human SNPs
+# while accuracy is important, typos in the data won't hurt you here
+snps <- c('rs53576', 'rs1815739', 'rs6152', 'rs1799971')
+snp_chromosomes <- c('3', '11', 'X', '6')
+snp_positions <- c(8762685, 66560624, 67545785, 154039662)
+```
+
+Once we have vectors, one thing we may want to do is specifically retrieve one
+or more values from our vector. To do so, we use **bracket notation**. We type
+the name of the vector followed by square brackets. In those square brackets
+we place the index (e.g. a number) in that bracket as follows:
+
+```r
+# get the 3rd value in the snp_genes vector
+snp_genes[3]
+```
+
+In R, every item your vector is indexed, starting from the first item (1)
+through to the final number of items in your vector. You can also retrieve a
+range of numbers:
+
+```r
+# get the 1st through 3rd value in the snp_genes vector
+snp_genes[1:3]
+```
+
+If you want to retrieve several (but not necessarily sequential) items from
+a vector, you pass a **vector of indices**; a vector that has the numbered
+positions you wish to retrieve.
+
+```r
+# get the 1st, 3rd, and 4th value in the snp_genes vector
+snp_genes[c(1, 3, 4)]
+```
+
+There are additional (and perhaps less commonly used) ways of subsetting a
+vector (see [these examples](https://thomasleeper.com/Rcourse/Tutorials/vectorindexing.html)).
+Also, several of these subsetting expressions can be combined:
+
+```r
+# get the 1st through the 3rd value, and 4th value in the snp_genes vector
+# yes, this is a little silly in a vector of only 4 values.
+snp_genes[c(1:3,4)]
+```
+## Adding to, removing, or replacing values in existing vectors
+
+Once you have an existing vector, you may want to add a new item to it. To do
+so, you can use the `c()` function again to add your new value:
+
+```r
+# add the gene 'CYP1A1' and 'APOA5' to our list of snp genes
+# this overwrites our existing vector
+snp_genes <- c(snp_genes, "CYP1A1", "APOA5")
+```
+
+We can verify that "snp_genes" contains the new gene entry
+
+```r
+snp_genes
+```
+
+Using a negative index will return a version of a vector with that index's
+value removed:
+
+```r
+snp_genes[-6]
+```
+
+We can remove that value from our vector by overwriting it with this expression:
+
+```r
+snp_genes <- snp_genes[-6]
+snp_genes
+```
+
+We can also explicitly rename or add a value to our index using double bracket notation:
+
+```r
+snp_genes[7]<- "APOA5"
+snp_genes
+```
+
+Notice in the operation above that R inserts an `NA` value to extend our vector so that the gene "APOA5" is an index 7. This may be a good or not-so-good thing depending on how you use this.
+
+## Quick Quiz
+
+[https://csb456.shinyapps.io/Vector-Quiz](https://csb456.shinyapps.io/Vector-Quiz/)
+
+## Logical Subsetting
+
+There is one last set of cool subsetting capabilities we want to introduce. It is possible within R to retrieve items in a vector based on a logical evaluation or numerical comparison. For example, let's say we wanted get all of the SNPs in our vector of SNP positions that were greater than 100,000,000. We could index using the '>' (greater than) logical operator:
+
+```{r, purl = FALSE}
+snp_positions[snp_positions > 100000000]
+```
+
+In the square brackets you place the name of the vector followed by the comparison operator and (in this case) a numeric value. Some of the most common logical operators you will use in R are:
+
+  | Operator | Description              |
+  |----------|--------------------------|
+  | <        | less than                |
+  | <=       | less than or equal to    |
+  | >        | greater than             |
+  | >=       | greater than or equal to |
+  | ==       | exactly equal to         |
+  | !=       | not equal to             |
+  | !x       | not x                    |
+  | a \| b   | a or b                   |
+  | a & b    | a and b                  |
+
+
+> ## The magic of programming
+>
+> The reason why the expression `snp_positions[snp_positions > 100000000]` works
+> can be better understood if you examine what the expression "snp_positions > 100000000"
+>evaluates to:
+>
+> ```r
+> snp_positions > 100000000
+> ```
+>
+> The output above is a logical vector, the 4th element of which is TRUE. When
+> you pass a logical vector as an index, R will return the true values:
+>
+> ```r
+> snp_positions[c(FALSE, FALSE, FALSE, TRUE)]
+> ```
+>
+> If you have never coded before, this type of situation starts to expose the
+> "magic" of programming. We mentioned before that in the bracket notation you
+> take your named vector followed by brackets which contain an index:
+> **named_vector[index]**. The "magic" is that the index needs to *evaluate to*
+> a number. So, even if it does not appear to be an integer (e.g. 1, 2, 3), as
+> long as R can evaluate it, we will get a result. That our expression
+> `snp_positions[snp_positions > 100000000]` evaluates to a number can be seen
+> in the following situation. If you wanted to know which **index** (1, 2, 3, or
+> 4) in our vector of SNP positions was the one that was greater than
+> 100,000,000?
+>
+> We can use the `which()` function to return the indices of any item that
+> evaluates as TRUE in our comparison:
+>
+> ```r
+> which(snp_positions > 100000000)
+> ```
+>
+> **Why this is important**
+>
+> Often in programming we will not know what inputs
+> and values will be used when our code is executed. Rather than put in a
+> pre-determined value (e.g 100000000) we can use an object that can take on
+> whatever value we need. So for example:
+>
+> ```r
+> snp_marker_cutoff <- 100000000
+> snp_positions[snp_positions > snp_marker_cutoff]
+> ```
+>
+> Ultimately, it's putting together flexible, reusable code like this that gets
+> at the "magic" of programming!
+
+<!-- * **Vectors**: collection of elements of the same data type
 	* how to create: use concatenate function, c()
 
 ```r
@@ -268,8 +523,10 @@ print(l)
 typeof(l)
 str(l)
 length(l)
-```
-**Challenge** 
+``` -->
+
+
+<!-- **Challenge** 
 
 ```r
 TASK: Try to create a list named 'myorder' that contains the 
@@ -328,6 +585,7 @@ myorder_df
 str(myorder_df)
 dim(myorder_df)
 ```
+ -->
 
 # if...else statements
 
@@ -463,7 +721,7 @@ for(i in 1:10){
 ```
 The 1:10 bit creates a vector on the fly; you can iterate over any other vector as well.
 
-For example, in our previous R lesson we had a `myorder_df`. We could iterate over each `menuItem` and display its cost.
+<!-- For example, in our previous R lesson we had a `myorder_df`. We could iterate over each `menuItem` and display its cost.
 
 ```r
 menuItems<-c("chicken", "soup", "salad", "tea")  
@@ -476,7 +734,7 @@ for (items in myorder_df$menuItems){
   print(items)
   print(myorder_df_subset$menuCost)
 }
-```
+``` -->
 > Now, you are equipped with all things necessary to solve our problem.
 
 ## Resources.
