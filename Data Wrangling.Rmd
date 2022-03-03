@@ -1,0 +1,79 @@
+---
+title: "Part 2 - Data Wrangling"
+author: "BR"
+date: "03/03/2022"
+output:
+  revealjs::revealjs_presentation:
+    theme: simple
+    incremental: true
+    highlight: tango
+    center: true
+    self_contained: false
+    previewLinks: true
+    transition: fade
+    reveal_plugins: ["zoom", "search"]
+    css: css456.css
+    reveal_options:
+      slideNumber: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+
+- ~~Part 1 - R and Rstudio as a tool for Computational Biology.~~ 
+- **Part 2 - Data Wrangling using `tidyr` and `dplyr`**
+- Activity and Quiz
+
+## Recap - Part 1 - R as a tool for Computational Biology {data-transition="zoom"}
+
+- Why R and Rstudio?
+- Basics.  
+  - Operations (Addition, Subtraction, etc.).  
+  - Operators. (Logical Operators `>`,`<`,`>=`,`<=`,`==`,`!=`) 
+- Variables and DataTypes
+  - Variable/Single Element Objects
+    - Datatype - Character
+    - Datatype - Numeric
+    - Datatype - Logical
+  - Vectors
+    - Collection of elements of *same datatype*.
+
+## Objective of Today's Class
+
+- Be able to work with tabular data.
+- Understand and apply `pipes (%>%)` in `tidyverse` to `filter()`
+- Be able to use logical operators to subset operation using various functions (`select()`, `filter()` and `mutate()`).
+
+
+## Overview of Today's class
+
+- Core Principles of Data Wrangling and Manipulation.  
+- 7 Functions to manipulate the dataset.
+  - `glimpse()`
+  - `select()`
+  - `filter()`
+  - `group_by()`
+  - `summarize()`
+  - `mutate()`
+  - `pivot_longer()` and `pivot_wider()`
+- Exercises 
+
+## Core Principles of Data Wrangling and Manipulation
+
+1. Keep raw data separate from analyzed data.  
+2. Keep spreadsheet data Tidy.  
+  2a. One row in our spreadsheet for each observation or sample, and One column for every variable that we measure or report on.  
+3. Trust but verify.
+
+## Lets get Started
+
+- Navigate to [https://jayne.hpc.uidaho.edu/](https://jayne.hpc.uidaho.edu/)
+- Type your username and password to login.
+  - Your username is same as the one you use to `ssh`.  
+  
+## `group_by()`
+
+![](https://datacarpentry.org/genomics-r-intro/fig/split_apply_combine.png)
